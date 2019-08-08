@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg4"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnChanges"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/redrectangle"
+        android:gravity="center"
+        android:text="Changes"
+        android:textColor="@color/white"
+        android:textSize="32dp" />
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:hint="Username"
+        android:drawableRight="@drawable/ic_person_black_24dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/usernameTbId"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:hint="Password"
+        android:drawableRight="@drawable/ic_vpn_key_black_24dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/passwordTbId"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="16dp"
+            android:layout_marginRight="20dp"
+            android:text="Log In"
+            android:textColor="#ffffff"
+            android:background="@drawable/yellowrectangle"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textColor="#ffffff"
+            android:text="Still Un-Registered ?"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="16dp"
+            android:layout_marginRight="20dp"
+            android:text="Sign Up !"
+            android:textColor="#ffffff"
+            android:background="@drawable/bluerectangle"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
